@@ -1,5 +1,4 @@
 # Docker MySQL 
-[![Build Status](https://travis-ci.com/b1412/docker-mysql.svg?branch=master)](https://travis-ci.com/b1412/docker-mysql)
 ## Run your query
 
 ```bash

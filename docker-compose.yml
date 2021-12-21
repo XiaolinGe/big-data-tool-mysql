@@ -3,7 +3,7 @@ version: '2.1'
 services:
     mysql:
         container_name: big-data-tool-mysql
-        image: big-data-tool-mysql
+        image: docker.pkg.github.com/xiaolinge/big-data-tool-mysql/big-data-tool-mysql:latest
         ports:
             - "3306:3306"
         volumes:

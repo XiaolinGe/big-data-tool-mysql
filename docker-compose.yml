@@ -1,0 +1,20 @@
+version: '2.1'
+
+services:
+    mysql:
+        container_name: big-data-tool-mysql
+        image: big-data-tool-mysql
+        ports:
+            - "3306:3306"
+        volumes:
+            - big-data-tool-mysql-data:/var/lib/mysql
+            - big-data-tool-mysql-log:/var/log/mysql
+        healthcheck:
+            interval: 5s
+            timeout: 60s
+            retries: 10
+volumes:
+    big-data-tool-mysql-data:
+        driver: local
+    big-data-tool-mysql-log:
+        driver: local

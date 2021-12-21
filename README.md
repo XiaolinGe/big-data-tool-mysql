@@ -2,11 +2,7 @@
 ## Run your query
 
 ```bash
- docker exec docker-mysql mysql -uroot -pcannon -e 'SELECT * from cannon.branch' 
-```
-or 
-```bash
- docker exec -it docker-mysql bash 
- mysql -uroot -pcannon
+ docker exec -it big-data-tool-mysql bash 
+ mysql -uroot -pbitdatatool
 ```
 
